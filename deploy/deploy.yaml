@@ -3,4 +3,4 @@ from: 'romainlavabrefairfair/deploy-java'
 
 steps:
     -   name: '@deploy'
-        script: './free-commit/deploy.sh'
+        script: './deploy/deploy.sh'
