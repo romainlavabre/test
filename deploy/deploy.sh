@@ -1,5 +1,5 @@
 #!/bin/bash
 
-sudo apt-get install jq -y
+#sudo apt-get install jq -y
 
 echo "$1"
