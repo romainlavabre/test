@@ -1,5 +1,8 @@
 #!/bin/bash
 
-#sudo apt-get install jq -y
+sudo apt-get install jq -y
 
-printenv
+REQUEST_BODY=$(printenv FREE_COMMIT_REQUEST_BODY)
+
+
+echo jq -r .ref
