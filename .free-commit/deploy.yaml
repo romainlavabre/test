@@ -1,0 +1,6 @@
+version: '1.0'
+from: 'romainlavabrefairfair/deploy-java'
+
+steps:
+    -   name: '@deploy'
+        script: './free-commit/deploy.sh'
