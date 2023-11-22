@@ -6,4 +6,4 @@ REQUEST_BODY=$(printenv FREE_COMMIT_REQUEST_BODY)
 
 echo "$REQUEST_BODY" > payload.json
 
-echo "$(jq '.ref' payload.json)"
+echo "$(jq '.repository.id' payload.json)"
