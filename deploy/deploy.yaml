@@ -2,5 +2,17 @@ version: '1.0'
 from: 'romainlavabrefairfair/deploy-java'
 
 steps:
-    -   name: '@deploy'
+    -   name: '@deploy1'
         script: '/deploy/deploy.sh'
+
+    -   name: '@deploy2'
+        script: '/deploy/deploy2.sh'
+
+    -   name: '@deploy3'
+        script: '/deploy/deploy3.sh'
+
+    -   name: '@deploy4'
+        script: '/deploy/deploy4.sh'
+
+    -   name: '@deploy5'
+        script: '/deploy/deploy5.sh'
