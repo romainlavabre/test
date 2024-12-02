@@ -1,4 +1,3 @@
 #!/bin/bash
 
-exit 1
-sleep 10
+bad-cmd
