@@ -1,3 +1,3 @@
 #!/bin/bash
 
-bad-cmd
+sleep 2

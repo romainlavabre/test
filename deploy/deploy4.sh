@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sleep 32
+sleep 2
