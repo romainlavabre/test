@@ -2,6 +2,9 @@ version: '1.0'
 from: 'romainlavabrefairfair/deploy-java'
 
 steps:
+    -   name: '@cleanup'
+        script: '/deploy/cleanup.sh'
+
     -   name: '@deploy1'
         script: '/deploy/deploy.sh'
 
